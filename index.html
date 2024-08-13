@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="web.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran Praktik Kerja Lapangan</title>
+    <header>
+        <div class="judul">
+        <div class="logo">
+           <img src="logorpl.jpg"alt="logorpl">
+    <h1>Formulir Pendaftaran Praktik Kerja Lapangan (PKL)</h1>
+    </div>
+    </div>
+    </header>
+</head>
+<body>
+    <div class="container"></div>
+    <form action="proses pendaftaran.php" method="post"></form>
+    <div class="form-group">
+        <fieldset>
+        <legend>Biodata</legend>
+        <label for="Nama"> Nama lengkap:</label><br>
+        <input type="text" id="username" name="nama"> <br>
+        <label for="class">Class: </label> <br>
+        <input type="text" id="class" class="class"> <br>
+        <label for="Tempatlahir"> Tempat lahir: </label> <br>
+        <input type="text" id="tempatlahir" tempatlahir="tempatlahir<"> <br>
+        <label for="Tanggal lahir">Tanggal lahir</label> <br>
+        <input type="date" id="tanggallahir" tanggallahir="tanggallahir"> <br>
+        <label for="Usia"> Usia: </label> <br>
+        <input type="text" id="usia" usia="usia"> <br>
+        <label for="Agama">Agama: </label> <br>
+        <select id="cars" name="cars">
+            <option value="Islam">Islam</option>
+            <option value="Kristen protestan">Kristen Protestan</option>
+            <option value="Kristen katolik"> Kristen Katolik</option>
+            <option value="Budha"> Budha</option>
+            <option value="Hindu"> Hindu</option>
+            <option value="Khonghucu"> Khonghucu</option>
+            <option value="Penghayat kepercayaan"> Penghayat Kepercayaan</option>
+        </select>
+        <p>Jenis kelamin: </p>
+        <form>
+            <input type="radio" id="perempuan" name="perempuan" value="perempuan">
+            <label for="perempuan">Perempuan</label> <br>
+            <input type="radio" id="Laki-Laki" name="Laki-laki" value="laki-laki">
+            <label for="laki-laki">Laki-Laki</label> <br>
+        </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Alamat</legend>
+            <label for="alamatlengkap">Alamat Lengkap:</label> <br>
+            <textarea name="alamat" rows="10" cols="30">
+            </textarea> <br>
+
+            <label for="rt">RT: </label> <br>
+            <input type="number" min="0" max="20" id="rt" name="rt"> <br>
+            <label for="rw">RW: </label> <br>
+            <input type="number" id="rw" name="rw"> <br>
+            <label for="Desa/kelurahan">Desa/kelurahan: </label> <br>
+            <select id="Desa/kelurahan" name="Desa/kelurahan">
+                <option value="cipada">Cipada</option>
+                <option value="jambudipa">Jambudipa</option>
+                <option value="kertawangi">Kertawangi</option>
+                <option value="padaasih">Padaasih</option>
+                <option value="pasirhalang">Pasirhalang</option>
+                <option value="tugumukti">Tugumukti</option>
+                <option value="sadang mekar">Sadang Mekar</option>
+            </select> <br>
+
+            <label for="kecamatan">Kecamatan: </label> <br>
+            <select id="kecamatan" name="kecamatan">
+                <option value="cisarua">Cisarua</option>
+                <option value="cipatat">Cipatat</option>
+                <option value="cikalong wetan">Cikalong Wetan</option>
+                <option value="lembang">Lembang</option>
+                <option value="ngamprah">Ngamprah</option>
+                <option value="parongpong">Parongpong</option>
+                <option value="padalarang">Padalarang</option>
+            </select> <br>
+
+            <label for="kabupaten/kota">Kabupaten/kota:</label> <br>
+            <select id="kabupaten" name="kabupaten">
+                <option value="kab.bandung barat">Kab.Bandung Barat</option>
+                <option value="kab.bandung">Kab.Bandung</option>
+                <option value="kab.cianjur">Kab.Cianjur</option>
+                <option value="kab.sumedang">Kab.Sumedang</option>
+                <option value="kota bandung">Kota Bandung</option>
+                <option value="kota cimahi">Kota Cimahi</option>
+            </select> <br>
+
+            <label for="provinsi"> Provinsi: </label> <br>
+            <select id="provinsi" name="provinsi">
+                <option value="jawa barat">Jawa Barat</option>
+                <option value="jawa tengah">Jawa Tengah</option>
+                <option value="jawa timur">Jawa Timur</option>
+                <option value="dki jakarta">DKI Jakarta</option>
+            </select> <br>
+            <label for="kode pos">Kode pos:</label> <br>
+            <input type="text" id="kodepos" kodepos="kodepos">
+        </fieldset> 
+
+        <fieldset>
+            <legend>Kontak</legend> 
+            <label for="kontak">Kontak:</label> <br>
+            <input type="text" id="kontak" kontak="kontak"> <br>
+            <label for="no telepon siswa"> No Telepon Siswa:</label> <br>
+            <input type="noteleponsiswa" id="noteleponsiswa" noteleponsiswa="noteleponsiswa"> <br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" emailsiswa="email"> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Akun</legend>
+            <label for="username">Username:</label> <br>
+            <input type="username" id="usename" akun="username"> <br>
+            <label for="password">Pasword:</label> <br>
+            <input type="password" id="password" akun="password"> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tempat PKL</legend>
+            <label>
+                <input type="checkbox" name="option4">
+                Lintasarta
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option4">
+                Denkavkud
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option4">
+                Telkom
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option4">
+                Polsek cisarua
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option5">
+                CGY
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option6">
+                Indosat
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option6">
+                Diskoling
+            <label> <br>
+            <label>
+                <input type="checkbox" name="option8">
+                Elite asia
+            <label> <br>
+                <label>
+                    <input type="checkbox" name="option4">
+                    Idea imaji
+            <label> <br>
+                <label>
+                    <input type="checkbox" name="option4">
+                    Gudang ada
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option4">
+                Mnemonic
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option4">
+                Scorpa pranedya
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option13">
+                Digiwonder Digital
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option14">
+                The Software Practice
+            </label> <br>
+            <label>
+                <input type="checkbox" name="option15">
+                UPI
+            </label> <br> 
+        </fieldset>
+        <fieldset>
+            <legend>Upload Persyaratan:</legend>
+            <div class="form.group">
+          <label for="pasfoto">Upload Pas Foto 3x4:</label> <br>
+          <input type="file" id="pasfoto" name="pasfoto" value="pasfoto"><br>
+         <label for="pasfoto">Upload Kartu Tanda Pelajar:</label> <br>
+          <input type="file" id="pasfoto" name="pasfoto" value="pasfoto">
+          </div>
+          </fieldset>
+          <div class="submit">
+            <ul>
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+            </ul>
+          </div>
+         <div id="footer">
+         <footer>
+             <p>Hak Cipta Feninda Guswara 2024</p>
+         </footer>
+         </div>
+</body>
+</html>
